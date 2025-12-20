@@ -21,8 +21,8 @@ importers:
         specifier: 6.18.1
         version: 6.18.1(eslint@9.17.0)(typescript@5.3.3)
       '@typescript-eslint/types':
-        specifier: 6.18.1
-        version: 6.18.1
+        specifier: 6.21.0
+        version: 6.21.0
       '@typescript-eslint/typescript-estree':
         specifier: 6.18.1
         version: 6.18.1(typescript@5.3.3)
@@ -512,6 +512,10 @@ packages:
 
   '@typescript-eslint/types@6.18.1':
     resolution: {integrity: sha512-4TuMAe+tc5oA7wwfqMtB0Y5OrREPF1GeJBAjqwgZh1lEMH5PJQgWgHGfYufVB51LtjD+peZylmeyxUXPfENLCw==}
+    engines: {node: ^16.0.0 || >=18.0.0}
+
+  '@typescript-eslint/types@6.21.0':
+    resolution: {integrity: sha512-1kFmZ1rOm5epu9NZEZm1kckCDGj5UJEf7P1kliH4LKu/RkwpsfqqGmY2OOcUs18lSlQBKLDYBOGxRVtrMN5lpg==}
     engines: {node: ^16.0.0 || >=18.0.0}
 
   '@typescript-eslint/typescript-estree@6.18.1':
@@ -1784,6 +1788,8 @@ snapshots:
       '@typescript-eslint/visitor-keys': 6.18.1
 
   '@typescript-eslint/types@6.18.1': {}
+
+  '@typescript-eslint/types@6.21.0': {}
 
   '@typescript-eslint/typescript-estree@6.18.1(typescript@5.3.3)':
     dependencies:
