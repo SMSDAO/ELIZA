@@ -6,7 +6,7 @@
     "types": "dist/index.d.ts",
     "dependencies": {
         "@elizaos/core": "workspace:*",
-        "thirdweb": "^5.80.0",
+        "thirdweb": "^5.105.8",
         "tsup": "8.3.5"
     },
     "scripts": {
