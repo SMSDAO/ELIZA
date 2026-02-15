@@ -9,7 +9,7 @@
         "@elizaos/core": "workspace:*",
         "@elizaos/plugin-tee": "workspace:*",
         "@elizaos/plugin-trustdb": "workspace:*",
-        "axios": "^1.7.9"
+        "axios": "^1.13.5"
     },
     "scripts": {
         "build": "tsup --format esm --dts",
