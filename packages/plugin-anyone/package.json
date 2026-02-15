@@ -7,7 +7,7 @@
     "dependencies": {
         "@anyone-protocol/anyone-client": "^0.4.3",
         "@elizaos/core": "workspace:*",
-        "axios": "^1.7.9",
+        "axios": "^1.13.5",
         "tsup": "8.3.5"
     },
     "scripts": {
